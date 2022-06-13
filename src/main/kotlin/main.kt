@@ -1,5 +1,6 @@
 fun main() {
     var s = 780;
+    println(agoToText(s));
 }
 
 fun agoToText(secondsCount: Int): String = when {
